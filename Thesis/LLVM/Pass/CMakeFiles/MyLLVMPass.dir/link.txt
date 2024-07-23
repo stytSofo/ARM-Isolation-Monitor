@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared  -o libMyLLVMPass.so CMakeFiles/MyLLVMPass.dir/MTECheckPass.cpp.o 

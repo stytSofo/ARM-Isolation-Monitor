@@ -1,0 +1,18 @@
+clang-14 -flegacy-pass-manager -o pass_mte -Xclang -load -Xclang ./LLVM/Pass2/libModifyLoadAddrsPass.so safe.c mte_example.c -march=armv8.5a+memtag
+clang-14 -flegacy-pass-manager -c -Xclang -load -Xclang ./LLVM/Pass2/libModifyLoadAddrsPass.so safe.c -march=armv8.5a+memtag
+
+Produces LLVM IR and only compiles safe.c to an object file
+clang-14 -flegacy-pass-manager -S -emit-llvm  -c -Xclang -load -Xclang ./LLVM/Pass2/libModifyLoadAddrsPass.so safe.c -march=armv8.5a+memtag
+clang-14 -flegacy-pass-manager -emit-llvm  -c -Xclang -load -Xclang ./LLVM/Pass2/libModifyLoadAddrsPass.so safe.c -march=armv8.5a+memtag
+
+Load + Store Pass
+clang-14 -flegacy-pass-manager -S -emit-llvm  -c -Xclang -load -Xclang ./LLVM/Pass3/libModifyLoadStoreAddrsPass.so safe.c -march=armv8.5a+memtag
+clang-14 -flegacy-pass-manager -c -Xclang -load -Xclang ./LLVM/Pass3/libModifyLoadStoreAddrsPass.so safe.c -march=armv8.5a+memtag
+clang-14 -o pass_mte_full safe.o mte_example.c -march=armv8.5a+memtag
+
+
+Compile everything together
+clang-14 -o pass_mte_load_store_fixed -O0 safe.o mte_example.c -march=armv8.5a+memtag
+
+clang-14 -S -emit-llvm safe.c -march=armv8.5a+memtag
+

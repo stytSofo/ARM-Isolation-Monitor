@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-arm64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/llvm-14/**"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-arm64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

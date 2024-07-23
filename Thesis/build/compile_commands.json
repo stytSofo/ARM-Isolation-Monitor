@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thesis/Thesis/build",
+  "command": "/usr/bin/clang++-14 -DModifyLoadAddrsPass_EXPORTS -I/usr/lib/llvm-14/include -g -fPIC   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -fno-rtti -o CMakeFiles/ModifyLoadAddrsPass.dir/ModifyLoadAddrsPass.cpp.o -c /home/thesis/Thesis/LLVM/Pass2/ModifyLoadAddrsPass.cpp",
+  "file": "/home/thesis/Thesis/LLVM/Pass2/ModifyLoadAddrsPass.cpp"
+}
+]

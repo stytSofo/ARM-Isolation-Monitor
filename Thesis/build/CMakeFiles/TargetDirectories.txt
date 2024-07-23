@@ -1,0 +1,6 @@
+/home/thesis/Thesis/build/CMakeFiles/intrinsics_gen.dir
+/home/thesis/Thesis/build/CMakeFiles/omp_gen.dir
+/home/thesis/Thesis/build/CMakeFiles/acc_gen.dir
+/home/thesis/Thesis/build/CMakeFiles/ModifyLoadAddrsPass.dir
+/home/thesis/Thesis/build/CMakeFiles/edit_cache.dir
+/home/thesis/Thesis/build/CMakeFiles/rebuild_cache.dir

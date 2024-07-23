@@ -1,0 +1,9 @@
+/home/thesis/Thesis/Pass/CMakeFiles/intrinsics_gen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/omp_gen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/acc_gen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/ARMTargetParserTableGen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/AArch64TargetParserTableGen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/thesis/Thesis/Pass/CMakeFiles/MyLLVMPass.dir
+/home/thesis/Thesis/Pass/CMakeFiles/edit_cache.dir
+/home/thesis/Thesis/Pass/CMakeFiles/rebuild_cache.dir

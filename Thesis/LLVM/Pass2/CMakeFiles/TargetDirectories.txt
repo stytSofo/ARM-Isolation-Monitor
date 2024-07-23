@@ -1,0 +1,6 @@
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/intrinsics_gen.dir
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/omp_gen.dir
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/acc_gen.dir
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/ModifyLoadAddrsPass.dir
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/edit_cache.dir
+/home/thesis/Thesis/LLVM/Pass2/CMakeFiles/rebuild_cache.dir
