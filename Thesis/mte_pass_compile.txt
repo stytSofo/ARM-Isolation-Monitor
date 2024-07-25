@@ -12,7 +12,7 @@ clang-14 -o pass_mte_full safe.o mte_example.c -march=armv8.5a+memtag
 
 
 Compile everything together
-clang-14 -o pass_mte_load_store_fixed -O0 safe.o mte_example.c -march=armv8.5a+memtag
+clang-14 -o pass_mte_load_store -O0 safe.o mte_example.c -march=armv8.5a+memtag
 
 clang-14 -S -emit-llvm safe.c -march=armv8.5a+memtag
 

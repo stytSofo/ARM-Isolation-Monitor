@@ -1,0 +1,5 @@
+To create the makefile and make the shared object of the LLVM pass, follow the instructions bellow:
+
+
+cmake -DLT_LLVM_INSTALL_DIR=<path_to_llvm_installation> ..
+make
